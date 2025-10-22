@@ -1,7 +1,7 @@
 # naranjo_app.py
 # Sistema experto simplificado basado en el Algoritmo de Naranjo
 # Interfaz: Streamlit
-# Autor: Dr. Jekyll (Coordinador del Laboratorio de Innovación)
+# Autor: Dr. Agustín Asuaje
 
 import streamlit as st
 
@@ -12,8 +12,8 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("💊 Evaluación de causalidad de Reacción Adversa Medicamentosa")
-st.caption("Basado en el **Algoritmo de Naranjo**")
+st.title("💊 Evaluación de causalidad de Reacciones Adversas Medicamentosas")
+st.caption("Basado en el **Algoritmo de Naranjo et al. (1981)**")
 
 # --- PREGUNTAS Y PUNTAJES ---
 questions = [
@@ -75,3 +75,4 @@ if submitted:
 # --- PIE ---
 st.markdown("---")
 st.caption("Desarrollado con ❤️ utilizando Streamlit y Python. Basado en el Algoritmo de Naranjo (1981).")
+
