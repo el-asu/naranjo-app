@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 st.title("💊 Evaluación de causalidad de Reacciones Adversas Medicamentosas")
-st.caption("Basado en el **Algoritmo de Naranjo et al. (1981)**")
+st.caption("Basado en el Algoritmo de [Naranjo et al. (1981)](https://pubmed.ncbi.nlm.nih.gov/7249508/)")
 
 # --- PREGUNTAS Y PUNTAJES ---
 questions = [
@@ -75,4 +75,5 @@ if submitted:
 # --- PIE ---
 st.markdown("---")
 st.caption("Desarrollado con ❤️ utilizando Streamlit y Python. Basado en el Algoritmo de Naranjo (1981).")
+
 
